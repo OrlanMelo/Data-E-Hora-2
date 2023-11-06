@@ -33,7 +33,7 @@ public:
 		cout << "Hora: " << atual.tm_hour << ":" << atual.tm_min + 0 << "\n";
 	}
 
-	void AlterarData(int Dia, int Mes, int Ano, bool Hora, int iHora, int Minuto)
+	void AlterarData(WORD Dia, WORD Mes, WORD Ano, bool Hora, WORD iHora, WORD Minuto)
 	{
 		SYSTEMTIME Tempo;
 		Tempo.wDay = Dia;
